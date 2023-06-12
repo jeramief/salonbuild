@@ -12,6 +12,7 @@
 }
 
 * {
+  color: var(--black);
   font-family: 'Playfair', sans-serif;
   margin: 0;
   padding: 0;
@@ -583,7 +584,7 @@ section {
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 2rem;
+    gap: 2rem;
 }
 
 .footer .box-container .box h3 {
@@ -607,7 +608,7 @@ section {
 .footer .box-container .box .share a {
   height: 4.5rem;
   width: 4.5rem;
-  line-height: 4.5;
+  line-height: 4.5rem;
   border-radius: 50%;
   font-size: 1.7rem;
   background: var(--primary-color);
