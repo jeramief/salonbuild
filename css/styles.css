@@ -318,6 +318,7 @@ section {
 /******************************************/
 .pricing {
   background: url(../images/pricing.jpg);
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -357,8 +358,8 @@ section {
   left: 80%;
 }
 
-.pricing .box-container .box::before {
-  background: var(--light-bg);
+.pricing .box-container .box::after {
+  background: var(--main-color);
   bottom: -10%;
   right: 80%;
 }
@@ -402,7 +403,7 @@ section {
   text-transform: uppercase;
 }
 
-.pricing .box-container .box ul li {
+.pricing .box-container .box ul li i {
   color: var(--main-color);
   padding: 0 10px;
 }
