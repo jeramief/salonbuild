@@ -441,7 +441,7 @@ section {
 }
 
 .blogs .box-container .box .image {
-  height: 100%;
+  height: 25rem;
   width: 100%;
   overflow: hidden;
 }
