@@ -591,6 +591,10 @@ footer {
   color: var(--primary-color);
 }
 
+.review .box-container .box img {
+  border-radius: 50%;
+}
+
 /******************************************/
 /* FOOTER
 /******************************************/
