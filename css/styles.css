@@ -21,6 +21,7 @@
   outline: none;
   border: none;
   text-decoration: none;
+  list-style: none;
   transition: all .2s linear;
 }
 
@@ -146,7 +147,7 @@ footer {
 .home {
   display: flex;
   align-items: center;
-  background: url(../images/home-bg2.png);
+  background: url(../images/home-bg.png);
   background-size: cover;
   min-height: 100vh;
 }
@@ -175,9 +176,7 @@ footer {
 /* ABOUT US
 /******************************************/
 .about {
-  /*  */
   background-image: url(../images/about-left.png);
-  /*  */
   background-repeat: no-repeat;
   background-position: left bottom;
 }
