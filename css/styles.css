@@ -43,7 +43,9 @@ html::-webkit-scrollbar-thumb {
   background: var(--primary-color);
 }
 
-section {
+section,
+header,
+footer {
   padding: 5rem 7%;
 }
 
@@ -96,20 +98,20 @@ section {
   font-size: 4rem;
   cursor: pointer;
   color: var(--black);
+  display: none;
 }
 
-.header .navbar {
-  font-size: 2rem;
-  margin-left: 2rem;
-  color: var(--black);
-  text-transform: capitalize;
-}
-
+.header .navbar,
 .header .navbar a {
   font-size: 2rem;
   margin-left: 2rem;
   color: var(--black);
   text-transform: capitalize;
+}
+
+.header .navbar a:hover {
+  padding-bottom: 0.5rem;
+  color: var(--primary-color);
 }
 
 .heading {
@@ -119,6 +121,13 @@ section {
   margin-bottom: 3rem;
   margin-top: 3rem;
   font-size: 4rem;
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: var(--black);
+  display: none;
 }
 
 .btn {
@@ -463,7 +472,7 @@ section {
 .blogs .box-container .box .content .title {
   font-size: 2.5rem;
   line-height: 1.5;
-  color: var(--primary-color);
+  color: var(--white);
   text-transform: capitalize;
 }
 

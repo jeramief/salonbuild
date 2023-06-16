@@ -1,15 +1,18 @@
-let navbar = document.querySelector('.header .navbar');
-let menuBtn = document.querySelector('#menu-btn');
-let closeBtn = document.querySelector('#close-navbar');
+const navbar = document.querySelector('.header .navbar');
+const menuBtn = document.querySelector("#menu-btn");
+const closeBtn = document.querySelector('#close-navbar');
 
-menuBtn.onclick = () => {
-  navbar.classList.add('active');
-}
+menuBtn.addEventListener("click", () => {
+  menuBtn.classList.toggle("active");
+  navbar.classList.toggle("active");
+})
 
-closeBtn.onclick = () => {
-  navbar.classList.remove('active');
-}
+closeBtn.addEventListener("click", () => {
+  menuBtn.classList.toggle("active");
+  navbar.classList.toggle("active");
+})
 
-window.onclick = () => {
-  navbar.classList.remove('active');
-}
+document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", () => {
+  menuBtn.classList.remove("active");
+  navbar.classList.remove("active");
+}))
