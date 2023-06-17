@@ -219,6 +219,10 @@ footer {
   padding: 3rem 2rem;
 }
 
+.about .row .content .icons-container .icons img {
+  height: 15rem;
+}
+
 /******************************************/
 /* SERVICES
 /******************************************/
@@ -691,6 +695,13 @@ footer {
   .header ul {
     display: flex;
     flex-direction: column;
+  }
+
+  .home {
+    background: url(../images/home-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
   }
 
   #menu-btn {
