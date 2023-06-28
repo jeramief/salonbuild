@@ -1,3 +1,5 @@
+import "./normalize.css";
+import "./style.css";
 import { About } from "./components/About";
 import { Blogs } from "./components/Blogs";
 import { Footer } from "./components/Footer";
@@ -8,8 +10,6 @@ import { Reviews } from "./components/Reviews";
 import { Services } from "./components/Services";
 import { Styles } from "./components/Styles";
 import { Visit } from "./components/Visit";
-import "./normalize.css";
-import "./style.css";
 
 function App() {
   return (

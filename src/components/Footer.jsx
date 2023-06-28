@@ -20,8 +20,10 @@ export const Footer = () => {
 
         <div className="box">
           <h3>contact us</h3>
-          <p>(317) 555 1234</p>
-          <a href="#" className="link">
+          <a href="tel:3175551234">
+            <p>(317) 555 1234</p>
+          </a>
+          <a href="mailto:default@email.com" className="link">
             default@email.com
           </a>
         </div>

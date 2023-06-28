@@ -1,8 +1,10 @@
+import Logo from "../assets/images/cover.png";
+
 export const Navbar = () => {
   return (
     <header className="header">
       <a href="#" className="logo">
-        <img src="images/cover.png" alt="" className="emblem" />
+        <img src={Logo} alt="" className="emblem" />
       </a>
 
       <nav className="navbar">

@@ -1,3 +1,8 @@
+import AboutLeft from "../assets/images/about.png";
+import About1 from "../assets/images/about-icon-1.png";
+import About2 from "../assets/images/about-icon-2.png";
+import About3 from "../assets/images/about-icon-3.png";
+
 export const About = () => {
   return (
     <section className="about" id="about">
@@ -5,7 +10,7 @@ export const About = () => {
 
       <div className="row">
         <div className="image">
-          <img src="images/about.png" alt="" />
+          <img src={AboutLeft} alt="" />
         </div>
 
         <div className="content">
@@ -23,17 +28,17 @@ export const About = () => {
 
           <div className="icons-container">
             <div className="icons">
-              <img src="images/about-icon-2.png" alt="" />
+              <img src={About2} alt="" />
               <h3>professional tools</h3>
             </div>
 
             <div className="icons">
-              <img src="images/about-icon-1.png" alt="" />
+              <img src={About1} alt="" />
               <h3>quality tools</h3>
             </div>
 
             <div className="icons">
-              <img src="images/about-icon-3.png" alt="" />
+              <img src={About3} alt="" />
               <h3>hair washing</h3>
             </div>
           </div>
