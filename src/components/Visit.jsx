@@ -28,7 +28,7 @@ export const Visit = () => {
           </form>
 
           <div className="image">
-            <img src="images/contact.png" alt="" />
+            <img src="" alt="" />
           </div>
         </div>
       </div>

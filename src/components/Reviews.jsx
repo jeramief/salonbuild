@@ -1,3 +1,5 @@
+import quoteImg from "../assets/images/quote-img.png";
+
 export const Reviews = () => {
   return (
     <section className="review" id="review">
@@ -5,7 +7,7 @@ export const Reviews = () => {
 
       <div className="box-container">
         <div className="box">
-          <img src="images/quote-img.png" alt="" className="quote" />
+          <img src={quoteImg} alt="" className="quote" />
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
@@ -26,7 +28,7 @@ export const Reviews = () => {
         </div>
 
         <div className="box">
-          <img src="images/quote-img.png" alt="" className="quote" />
+          <img src={quoteImg} alt="" className="quote" />
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
@@ -47,7 +49,7 @@ export const Reviews = () => {
         </div>
 
         <div className="box">
-          <img src="images/quote-img.png" alt="" className="quote" />
+          <img src={quoteImg} alt="" className="quote" />
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo

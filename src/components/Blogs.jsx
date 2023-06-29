@@ -1,3 +1,7 @@
+import blog1 from "../assets/images/blog1.jpg";
+import blog2 from "../assets/images/blog2.jpg";
+import blog3 from "../assets/images/blog3.jpg";
+
 export const Blogs = () => {
   return (
     <section className="blogs" id="blogs">
@@ -7,7 +11,7 @@ export const Blogs = () => {
         <div className="box">
           <a href="#">
             <div className="image">
-              <img src="images/blog1.jpg" alt="" />
+              <img src={blog1} alt="" />
             </div>
 
             <div className="content">
@@ -26,7 +30,7 @@ export const Blogs = () => {
         <div className="box">
           <a href="#">
             <div className="image">
-              <img src="images/blog2.jpg" alt="" />
+              <img src={blog2} alt="" />
             </div>
 
             <div className="content">
@@ -45,7 +49,7 @@ export const Blogs = () => {
         <div className="box">
           <a href="#">
             <div className="image">
-              <img src="images/blog3.jpg" alt="" />
+              <img src={blog3} alt="" />
             </div>
 
             <div className="content">
