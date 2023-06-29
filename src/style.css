@@ -139,7 +139,7 @@ footer {
 .home {
   display: flex;
   align-items: center;
-  background: url(../images/home-bg.png);
+  background: url(./assets/images/home-bg.png);
   background-size: cover;
   min-height: 100vh;
 }
@@ -167,12 +167,6 @@ footer {
 /******************************************/
 /* ABOUT US
 /******************************************/
-.about {
-  background-image: url(../images/about-left.png);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-}
-
 .about .row {
   display: flex;
   align-items: center;
@@ -321,7 +315,7 @@ footer {
 /* PRICING
 /******************************************/
 .pricing {
-  background: url(../images/pricing.jpg);
+  background: url(./assets/images/pricing.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -498,7 +492,7 @@ footer {
 /* VISIT
 /******************************************/
 .visit {
-  background: url(../images/visit.png);
+  background:  linear-gradient(to top, #ffffff10, #ffffff85), url(./assets/images/visit.png);
   background-size: cover;
   background-position: center;
 }
@@ -698,7 +692,7 @@ footer {
   }
 
   .home {
-    background: url(../images/home-bg.png);
+    background: url(./assets/images/home-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 50vh;
