@@ -1,6 +1,44 @@
+import { useEffect } from "react";
 import Logo from "../assets/images/cover.png";
 
 export const Navbar = () => {
+  useEffect(() => {
+    const navbar = document.querySelector(".header .navbar");
+    const menuBtn = document.querySelector("#menu-btn");
+    const closeBtn = document.querySelector("#close-navbar");
+
+    const openMenu = () => {
+      menuBtn.classList.toggle("active");
+      navbar.classList.toggle("active");
+    };
+
+    const closeMenu = () => {
+      menuBtn.classList.toggle("active");
+      navbar.classList.toggle("active");
+    };
+
+    const toggle = () => {
+      menuBtn.classList.remove("active");
+      navbar.classList.remove("active");
+    };
+
+    menuBtn.addEventListener("click", openMenu);
+    closeBtn.addEventListener("click", closeMenu);
+
+    document.querySelectorAll(".nav-item").forEach((n) => {
+      n.addEventListener("click", toggle);
+    });
+
+    return () => {
+      // Cleanup: Remove event listeners when the component unmounts
+      menuBtn.removeEventListener("click", openMenu);
+      closeBtn.removeEventListener("click", closeMenu);
+      document.querySelectorAll(".nav-item").forEach((n) => {
+        n.removeEventListener("click", toggle);
+      });
+    };
+  }, []);
+
   return (
     <header className="header">
       <a href="#" className="logo">
@@ -33,7 +71,7 @@ export const Navbar = () => {
             <a href="#visit">book a visit</a>
           </li>
           <li className="nav-item">
-            <a href="#review">review</a>
+            <a href="#review">reviews</a>
           </li>
         </ul>
       </nav>

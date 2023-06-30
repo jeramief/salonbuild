@@ -1,6 +1,5 @@
 import "./normalize.css";
 import "./style.css";
-import "./assets/js/main";
 import { About } from "./components/About";
 import { Blogs } from "./components/Blogs";
 import { Footer } from "./components/Footer";
